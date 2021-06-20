@@ -1,16 +1,5 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
-font-family: 'Poppins', sans-serif;
-==================================== */
-
-
 /*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
+1.  General css
 2.  Header
 3.  Welcome-hero
 4.  About me
@@ -23,7 +12,7 @@ font-family: 'Poppins', sans-serif;
 11. Contact
 
 /*-------------------------------------
-		1.General css (Reset code)
+		1.General css 
 --------------------------------------*/
 *{
     padding: 0;
@@ -190,10 +179,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/2.jpg)no-repeat;
     background-size:cover;
     background-position: center;
-    height:890px;
+    height:1080px;
 }
 .welcome-hero:before{
     position:absolute;
@@ -272,7 +261,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{position:inherit; box-shadow: 0 5px 20px rgba(14,25,80,.30);}
 .single-about-img:before {
     position:  absolute;
     content: " ";
